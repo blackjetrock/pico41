@@ -18,3 +18,10 @@ To Do
 It should be possible to emulate the display controller and use this Pico setup as a replacement for the display controller. For example a broken display controller should be replaceable by this program.
 RAM should also be emulatable with more code.
 Module code could be changed over USB rather than being embedded in the Pico code asit is now.
+
+
+More Information
+================
+
+https://youtu.be/KFQwrbWywjY
+https://youtu.be/kRxo2ekzvyg
