@@ -1,6 +1,9 @@
 # pico41
 RP Pico on HP41C bus
 
+This is a work in progress
+==========================
+
 This is a PCB that can be attached to an HP41C (using wires soldered to the processor PCB of the HP41C) that allows:
 
 * The HP41C bus to be examined and traced
@@ -25,3 +28,6 @@ More Information
 
 * https://youtu.be/KFQwrbWywjY
 * https://youtu.be/kRxo2ekzvyg
+
+This is a work in progress
+==========================
