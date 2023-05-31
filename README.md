@@ -23,6 +23,5 @@ Module code could be changed over USB rather than being embedded in the Pico cod
 More Information
 ================
 
-<code>
-https://youtu.be/KFQwrbWywjY
-https://youtu.be/kRxo2ekzvyg
+* https://youtu.be/KFQwrbWywjY
+* https://youtu.be/kRxo2ekzvyg
