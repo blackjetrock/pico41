@@ -1,0 +1,540 @@
+-9223250874098772647
+8wTermBlk
+8wTermBlk
+
+
+0
+8
+8
+8wTermBlk2
+8wTermBlk
+
+
+0
+8
+8
+Arduino
+Arduino_101_Shield
+https://store.arduino.cc/genuino-101
+
+0
+38
+38
+Arduino
+Arduino_Due_Shield
+https://store.arduino.cc/arduino-due
+
+0
+92
+91
+Arduino
+Arduino_Leonardo_Shield
+https://store.arduino.cc/arduino-leonardo-with-headers
+
+0
+38
+37
+Arduino
+Arduino_Mega2560_Shield
+https://store.arduino.cc/arduino-mega-2560-rev3
+
+0
+92
+91
+Arduino
+Arduino_Micro_Socket
+https://store.arduino.cc/arduino-micro
+
+0
+34
+32
+Arduino
+Arduino_Mini_Socket
+https://store.arduino.cc/arduino-mini-05
+
+0
+35
+35
+Arduino
+Arduino_Nano_Socket
+https://store.arduino.cc/arduino-nano
+
+0
+30
+30
+Arduino
+Arduino_Uno_Shield
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+38
+37
+Arduino
+Arduino_Zero_Shield
+https://store.arduino.cc/genuino-zero
+
+0
+38
+38
+BP
+BLUEPILL
+
+
+0
+50
+41
+BP
+BLUEPILL-EXTENSION
+
+
+0
+31
+28
+BP
+BLUEPILL_NOSWD
+
+
+0
+40
+37
+BP
+Pin_Header_Angled_1x06_Pitch2.54mm
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+BP
+SMD_BUTTON
+
+
+0
+4
+2
+Charleslabs_Parts
+ADC1115_ADC_Module
+
+
+0
+10
+10
+Charleslabs_Parts
+Arduino_Pro_Mini_China
+
+
+0
+29
+29
+Charleslabs_Parts
+BMP280_Module
+
+
+0
+6
+6
+Charleslabs_Parts
+HM-11_Module
+Chinese HM-11 Bluetooth Low Energy module
+
+0
+16
+16
+Charleslabs_Parts
+LogicLevelConverter_Module
+
+
+0
+12
+12
+Charleslabs_Parts
+MPU6050_Module
+
+
+0
+8
+8
+Charleslabs_Parts
+MQ-X_Gas_Sensor
+MQ-X Gas Sensor
+MQ-2 MQ-3 MQ-4 MQ-5 MQ-6 MQ-7 MQ-8 MQ-135
+0
+6
+6
+Charleslabs_Parts
+Mini360_Module
+
+
+0
+4
+4
+Charleslabs_Parts
+RV097
+
+
+0
+5
+5
+Charleslabs_Parts
+SD_Card_Module
+
+
+0
+6
+6
+Charleslabs_Parts
+SX1308_Boost_Module
+
+
+0
+4
+4
+DIN41612B_32F
+DIN41612B_32F
+
+
+0
+64
+64
+DIN41612B_32F_2
+DIN41612B_32F
+
+
+0
+64
+64
+KiCad-SSD1306_OLED-0
+SSD1306_OLED-0.91-128x32
+
+
+0
+14
+14
+TANBUS
+C2V7
+Condensateur polarise
+CP
+0
+2
+2
+TANBUS
+PhonoSkt
+
+
+0
+3
+3
+TANBUS
+TANBUS
+
+
+0
+64
+64
+aga
+Mega2560Pro_Embed_RobotDyn
+
+
+0
+86
+86
+aga
+SRX882
+
+
+0
+6
+6
+mirotan-due-cassette-shield
+AG12864E
+STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+AG12864E Graphics Display 128x64 Ampire
+0
+24
+20
+mirotan-due-cassette-shield
+Adafruit_SSD1306
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+mirotan-due-cassette-shield
+Adafruit_SSD1306_No_Mounting_Holes
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+mirotan-due-cassette-shield
+CR2013-MI2120
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+18
+14
+mirotan-due-cassette-shield
+EA-eDIP128B-XXX
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI
+0
+32
+32
+mirotan-due-cassette-shield
+EA_DOGS104X-A
+LCD 4x10 character 3.3V VDD I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
+LCD 4x10 character 3.3V VDD I2C or SPI
+0
+14
+14
+mirotan-due-cassette-shield
+EA_DOGXL160-7
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7
+0
+22
+22
+mirotan-due-cassette-shield
+EA_DOGXL160-7_Backlight
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7_Backlight
+0
+22
+22
+mirotan-due-cassette-shield
+EA_T123X-I2C
+http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+3 Line 12 character wide alpha numeric LCD
+0
+6
+6
+mirotan-due-cassette-shield
+EA_eDIP160-XXX
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI
+0
+40
+40
+mirotan-due-cassette-shield
+EA_eDIP240-XXX
+LCD graphical display LED backlight 240x128 http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip240-7e.pdf
+LCD graphical display LED backlight 240x128
+0
+40
+40
+mirotan-due-cassette-shield
+EA_eDIP320X-XXX
+LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf
+LCD display 320x340 RS-232 I2C or SPI
+0
+48
+48
+mirotan-due-cassette-shield
+EA_eDIPTFT32-XXX
+TFT-graphic display 320x240 16 bit colour with led backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft32-ae.pdf
+TFT-graphic display 320x240 16 bit colour with led backlight
+0
+40
+40
+mirotan-due-cassette-shield
+EA_eDIPTFT43-ATC
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+mirotan-due-cassette-shield
+EA_eDIPTFT43-XXX
+TFT graphical display 480x272 16-bit colour with LED backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+mirotan-due-cassette-shield
+EA_eDIPTFT57-XXX
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
+TFT-graphic display 640x480 16 bit colour
+0
+48
+48
+mirotan-due-cassette-shield
+EA_eDIPTFT70-ATC
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel
+0
+48
+48
+mirotan-due-cassette-shield
+EA_eDIPTFT70-XXX
+TFT-graphical display 800x480 16-bit colours http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours and touch display
+0
+48
+48
+mirotan-due-cassette-shield
+HDSM-441B_HDSM-443B
+2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
+2 Digit 7 segment blue LED
+0
+10
+10
+mirotan-due-cassette-shield
+HDSM-541B_HDSM-543B
+2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN
+2 digit 7 segement blue LED with right hand decimal
+0
+10
+10
+mirotan-due-cassette-shield
+HDSP-48xx
+10-Element Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HDSP-4830
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HDSP-4832
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HDSP-4836
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HDSP-4840
+10-Element Yellow Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Yellow Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HDSP-4850
+10-Element Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Green Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HLCP-J100
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+mirotan-due-cassette-shield
+HY1602E
+http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
+mirotan-due-cassette-shield
+LCD-016N002L
+16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
+LCD-016N002L 16 x 2 Character LCD
+0
+24
+20
+mirotan-due-cassette-shield
+LM16255
+LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
+LCD 12x2
+0
+14
+14
+mirotan-due-cassette-shield
+NHD-0420H1Z
+NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
+NHD-0420H1Z LCD
+0
+16
+16
+mirotan-due-cassette-shield
+NHD-C0220BiZ
+NHD-C0220BiZ LCD http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
+NHD-C0220BiZ LCD
+0
+10
+10
+mirotan-due-cassette-shield
+RC1602A
+http://www.raystar-optronics.com/down.php?ProID=18
+LCD 16x2 Alphanumeric 16pin
+0
+22
+18
+mirotan-due-cassette-shield
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
+mirotan-due-cassette-shield
+truconnect-20-0138-mono-socket
+
+
+0
+5
+5
+psion_org_2
+Psion_datapak_2x08_P2.54mm_Horizontal
+Through hole angled pin header, 2x08, 2.54mm pitch, 6mm pin length, double rows Psion2 Datapak
+Through hole angled pin header THT 2x08 2.54mm double row
+0
+16
+16
+psion_org_2
+SolderJumper-2_P1.3mm_Open_Pad0.8x0.8mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+rp2040
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+rp2040
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+rp2040
+RP2040-QFN-56-no_holes
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+61
+57
+rp2040
+RPi_Pico_SMD
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+43
+43
+rp2040
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43

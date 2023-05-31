@@ -1,5 +1,5 @@
 CMakeFiles/pico41.dir/pico41.c.obj: \
- /tree/projects/github/hp41c/pico41/code/pico41/pico41.c \
+ /tree/projects/github/pico41/firmware/pico41.c \
  /usr/include/newlib/ctype.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -27,9 +27,9 @@ CMakeFiles/pico41.dir/pico41.c.obj: \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
- /tree/projects/github/hp41c/pico41/code/pico41/build/generated/pico_base/pico/version.h \
+ /tree/projects/github/pico41/firmware/build/generated/pico_base/pico/version.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /tree/projects/github/hp41c/pico41/code/pico41/build/generated/pico_base/pico/config_autogen.h \
+ /tree/projects/github/pico41/firmware/build/generated/pico_base/pico/config_autogen.h \
  /tree/downloaded_tools/pico/pico-sdk/src/boards/include/boards/pico.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

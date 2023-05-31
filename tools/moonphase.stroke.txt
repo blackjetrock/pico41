@@ -1,0 +1,130 @@
+01  LBL "PHASE"
+  02  DEG
+  03  XEQ "J0"                   If you have a TIME Module, line 03 may be replaced by   1.012   STO 07   X<>Y   DDAYS
+  04  7.382647                   In this case, key in the date in the current format:  MDY or DMY
+  05  STO 03
+  06  /
+  07  INT
+  08  STO 06
+  09  ST* 03
+  10  4
+  11  MOD
+  12  STO 04
+  13  2
+  14  STO 02
+  15  X#Y?
+  16  ST- 02
+  17  ST/ 02
+  18  MOD
+  19  STO 05
+  20  221
+  21  *
+  22  RCL 02
+  23  -
+  24  407
+  25  +
+  26  RCL 06
+  27  96.45423
+  28  *
+  29  21.6
+  30  +
+  31  STO 00
+  32  SIN
+  33  *
+  34  RCL 06
+  35  7.2763
+  36  *
+  37  2.6
+  38  +
+  39  STO 01
+  40  SIN
+  41  172
+  42  RCL 02
+  43  +
+  44  *
+  45  +
+  46  RCL 05
+  47  7
+  48  *
+  49  16
+  50  -
+  51  RCL 00
+  52  ST+ X
+  53  SIN
+  54  *
+  55  -
+  56  RCL 05
+  57  5
+  58  -
+  59  ST+ X
+  60  RCL 06
+  61  195.335
+  62  *
+  63  39
+  64  -
+  65  STO 02
+  66  SIN
+  67  *
+  68  -
+  69  RCL 05
+  70  ST+ X
+  71  7
+  72  -
+  73  RCL 00
+  74  RCL 01
+  75  -
+  76  SIN
+  77  *
+  78  +
+  79  RCL 05
+  80  7
+  81  *
+  82  5
+  83  +
+  84  RCL 00
+  85  RCL 01
+  86  +
+  87  SIN
+  88  *
+  89  +
+  90  RCL 01
+  91  ST+ X
+  92  SIN
+  93  ST+ X
+  94  +
+  95  RCL 05
+  96  RCL 00
+  97  RCL 02
+  98  -
+  99  SIN
+100  ST* Y
+101  +
+102  +
+103  RCL 04
+104  90
+105  *
+106  SIN
+107  3
+108  *
+109  +
+110  5598
+111  +
+112   E3
+113  /
+114  RCL 03
+115  +
+116  INT
+117  LASTX
+118  FRC
+119  X<0?
+120  DSE Y
+121  ""                           TEXT0  or another  NOP  like  STO X  or here:   FRC
+122  24
+123  ST* Y
+124  MOD
+125  HMS
+126  X<>Y                   If you have a TIME Module, lines 126-127 may be replaced by   RCL 07   RCL Z   DATE+
+127  XEQ "DT"
+128  RCL 04
+129  END
+

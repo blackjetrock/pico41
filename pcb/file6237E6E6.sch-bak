@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR1
+U 1 1 6237EB99
+P 2050 1475
+F 0 "TR1" H 2328 1521 50  0000 L CNN
+F 1 "Si2302" H 2328 1430 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2080 1625 20  0001 C CNN
+F 3 "" H 2050 1475 50  0001 C CNN
+	1    2050 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 6237FF56
+P 2150 950
+F 0 "R3" H 2209 996 50  0000 L CNN
+F 1 "10k" H 2209 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2150 950 50  0001 C CNN
+F 3 "~" H 2150 950 50  0001 C CNN
+	1    2150 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1175 2150 1050
+$Comp
+L power:GND #PWR0110
+U 1 1 62380663
+P 2150 1875
+F 0 "#PWR0110" H 2150 1625 50  0001 C CNN
+F 1 "GND" H 2155 1702 50  0000 C CNN
+F 2 "" H 2150 1875 50  0001 C CNN
+F 3 "" H 2150 1875 50  0001 C CNN
+	1    2150 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1875 2150 1775
+Text GLabel 2025 650  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2025 650  2150 650 
+Wire Wire Line
+	2150 650  2150 850 
+Text GLabel 2925 1175 2    50   Input ~ 0
+KB_INH
+Wire Wire Line
+	2925 1175 2150 1175
+Connection ~ 2150 1175
+Text GLabel 1200 1575 0    50   Input ~ 0
+P_KB_INH
+Wire Wire Line
+	1200 1575 1850 1575
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR2
+U 1 1 62384037
+P 2050 3050
+F 0 "TR2" H 2328 3096 50  0000 L CNN
+F 1 "si2302" H 2328 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2080 3200 20  0001 C CNN
+F 3 "" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 6238403D
+P 2150 2525
+F 0 "R4" H 2209 2571 50  0000 L CNN
+F 1 "10k" H 2209 2480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2150 2525 50  0001 C CNN
+F 3 "~" H 2150 2525 50  0001 C CNN
+	1    2150 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2750 2150 2625
+$Comp
+L power:GND #PWR0111
+U 1 1 62384044
+P 2150 3450
+F 0 "#PWR0111" H 2150 3200 50  0001 C CNN
+F 1 "GND" H 2155 3277 50  0000 C CNN
+F 2 "" H 2150 3450 50  0001 C CNN
+F 3 "" H 2150 3450 50  0001 C CNN
+	1    2150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3450 2150 3350
+Text GLabel 2025 2225 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2025 2225 2150 2225
+Wire Wire Line
+	2150 2225 2150 2425
+Text GLabel 2925 2750 2    50   Input ~ 0
+KRA
+Wire Wire Line
+	2925 2750 2150 2750
+Connection ~ 2150 2750
+Text GLabel 1200 3150 0    50   Input ~ 0
+P_KRA
+Wire Wire Line
+	1200 3150 1850 3150
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR4
+U 1 1 623852E2
+P 2100 4700
+F 0 "TR4" H 2378 4746 50  0000 L CNN
+F 1 "si2302" H 2378 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2130 4850 20  0001 C CNN
+F 3 "" H 2100 4700 50  0001 C CNN
+	1    2100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 623852E8
+P 2200 4175
+F 0 "R6" H 2259 4221 50  0000 L CNN
+F 1 "10k" H 2259 4130 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2200 4175 50  0001 C CNN
+F 3 "~" H 2200 4175 50  0001 C CNN
+	1    2200 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4400 2200 4275
+$Comp
+L power:GND #PWR0112
+U 1 1 623852EF
+P 2200 5100
+F 0 "#PWR0112" H 2200 4850 50  0001 C CNN
+F 1 "GND" H 2205 4927 50  0000 C CNN
+F 2 "" H 2200 5100 50  0001 C CNN
+F 3 "" H 2200 5100 50  0001 C CNN
+	1    2200 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5100 2200 5000
+Text GLabel 2075 3875 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2075 3875 2200 3875
+Wire Wire Line
+	2200 3875 2200 4075
+Text GLabel 2975 4400 2    50   Input ~ 0
+KRB
+Wire Wire Line
+	2975 4400 2200 4400
+Connection ~ 2200 4400
+Text GLabel 1250 4800 0    50   Input ~ 0
+P_KRB
+Wire Wire Line
+	1250 4800 1900 4800
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR3
+U 1 1 62386724
+P 2075 6500
+F 0 "TR3" H 2353 6546 50  0000 L CNN
+F 1 "si2302" H 2353 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2105 6650 20  0001 C CNN
+F 3 "" H 2075 6500 50  0001 C CNN
+	1    2075 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 6238672A
+P 2175 5975
+F 0 "R5" H 2234 6021 50  0000 L CNN
+F 1 "10k" H 2234 5930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2175 5975 50  0001 C CNN
+F 3 "~" H 2175 5975 50  0001 C CNN
+	1    2175 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 6200 2175 6075
+$Comp
+L power:GND #PWR0113
+U 1 1 62386731
+P 2175 6900
+F 0 "#PWR0113" H 2175 6650 50  0001 C CNN
+F 1 "GND" H 2180 6727 50  0000 C CNN
+F 2 "" H 2175 6900 50  0001 C CNN
+F 3 "" H 2175 6900 50  0001 C CNN
+	1    2175 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 6900 2175 6800
+Text GLabel 2050 5675 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2050 5675 2175 5675
+Wire Wire Line
+	2175 5675 2175 5875
+Text GLabel 2950 6200 2    50   Input ~ 0
+KRC
+Wire Wire Line
+	2950 6200 2175 6200
+Connection ~ 2175 6200
+Text GLabel 1225 6600 0    50   Input ~ 0
+P_KRC
+Wire Wire Line
+	1225 6600 1875 6600
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR6
+U 1 1 62387487
+P 6325 1650
+F 0 "TR6" H 6603 1696 50  0000 L CNN
+F 1 "si2302" H 6603 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6355 1800 20  0001 C CNN
+F 3 "" H 6325 1650 50  0001 C CNN
+	1    6325 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 6238748D
+P 6425 1125
+F 0 "R8" H 6484 1171 50  0000 L CNN
+F 1 "10k" H 6484 1080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6425 1125 50  0001 C CNN
+F 3 "~" H 6425 1125 50  0001 C CNN
+	1    6425 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 1350 6425 1225
+$Comp
+L power:GND #PWR0114
+U 1 1 62387494
+P 6425 2050
+F 0 "#PWR0114" H 6425 1800 50  0001 C CNN
+F 1 "GND" H 6430 1877 50  0000 C CNN
+F 2 "" H 6425 2050 50  0001 C CNN
+F 3 "" H 6425 2050 50  0001 C CNN
+	1    6425 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 2050 6425 1950
+Text GLabel 6300 825  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 825  6425 825 
+Wire Wire Line
+	6425 825  6425 1025
+Text GLabel 7200 1350 2    50   Input ~ 0
+KCA
+Wire Wire Line
+	7200 1350 6425 1350
+Connection ~ 6425 1350
+Text GLabel 5475 1750 0    50   Input ~ 0
+P_KCA
+Wire Wire Line
+	5475 1750 6125 1750
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR5
+U 1 1 623884B4
+P 6300 3325
+F 0 "TR5" H 6578 3371 50  0000 L CNN
+F 1 "si2302" H 6578 3280 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6330 3475 20  0001 C CNN
+F 3 "" H 6300 3325 50  0001 C CNN
+	1    6300 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 623884BA
+P 6400 2800
+F 0 "R7" H 6459 2846 50  0000 L CNN
+F 1 "10k" H 6459 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6400 2800 50  0001 C CNN
+F 3 "~" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3025 6400 2900
+$Comp
+L power:GND #PWR0115
+U 1 1 623884C1
+P 6400 3725
+F 0 "#PWR0115" H 6400 3475 50  0001 C CNN
+F 1 "GND" H 6405 3552 50  0000 C CNN
+F 2 "" H 6400 3725 50  0001 C CNN
+F 3 "" H 6400 3725 50  0001 C CNN
+	1    6400 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3725 6400 3625
+Text GLabel 6275 2500 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6275 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 2700
+Text GLabel 7175 3025 2    50   Input ~ 0
+KCB
+Wire Wire Line
+	7175 3025 6400 3025
+Connection ~ 6400 3025
+Text GLabel 5450 3425 0    50   Input ~ 0
+P_KCB
+Wire Wire Line
+	5450 3425 6100 3425
+$Comp
+L cq1re1-cache:New_Library_Si2302CDS-n-channel TR7
+U 1 1 62389840
+P 6325 4950
+F 0 "TR7" H 6603 4996 50  0000 L CNN
+F 1 "si2302" H 6603 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6355 5100 20  0001 C CNN
+F 3 "" H 6325 4950 50  0001 C CNN
+	1    6325 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 62389846
+P 6425 4425
+F 0 "R9" H 6484 4471 50  0000 L CNN
+F 1 "10k" H 6484 4380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6425 4425 50  0001 C CNN
+F 3 "~" H 6425 4425 50  0001 C CNN
+	1    6425 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 4650 6425 4525
+$Comp
+L power:GND #PWR0116
+U 1 1 6238984D
+P 6425 5350
+F 0 "#PWR0116" H 6425 5100 50  0001 C CNN
+F 1 "GND" H 6430 5177 50  0000 C CNN
+F 2 "" H 6425 5350 50  0001 C CNN
+F 3 "" H 6425 5350 50  0001 C CNN
+	1    6425 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 5350 6425 5250
+Text GLabel 6300 4125 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	6300 4125 6425 4125
+Wire Wire Line
+	6425 4125 6425 4325
+Text GLabel 7200 4650 2    50   Input ~ 0
+KCC
+Wire Wire Line
+	7200 4650 6425 4650
+Connection ~ 6425 4650
+Text GLabel 5475 5050 0    50   Input ~ 0
+P_KCC
+Wire Wire Line
+	5475 5050 6125 5050
+$EndSCHEMATC

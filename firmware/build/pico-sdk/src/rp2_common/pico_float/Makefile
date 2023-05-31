@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tree/projects/github/hp41c/pico41/code/pico41
+CMAKE_SOURCE_DIR = /tree/projects/github/pico41/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tree/projects/github/hp41c/pico41/code/pico41/build
+CMAKE_BINARY_DIR = /tree/projects/github/pico41/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/hp41c/pico41/code/pico41/build/CMakeFiles /tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/src/rp2_common/pico_float//CMakeFiles/progress.marks
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/hp41c/pico41/code/pico41/build/CMakeFiles 0
+	cd /tree/projects/github/pico41/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/pico41/firmware/build/CMakeFiles /tree/projects/github/pico41/firmware/build/pico-sdk/src/rp2_common/pico_float//CMakeFiles/progress.marks
+	cd /tree/projects/github/pico41/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/pico41/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/clean
+	cd /tree/projects/github/pico41/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/preinstall
+	cd /tree/projects/github/pico41/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/preinstall
+	cd /tree/projects/github/pico41/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_float/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tree/projects/github/pico41/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tree/projects/github/hp41c/pico41/code/pico41/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tree/projects/github/pico41/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

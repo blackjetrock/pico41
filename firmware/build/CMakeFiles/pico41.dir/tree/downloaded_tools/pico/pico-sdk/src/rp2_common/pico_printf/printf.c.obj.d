@@ -28,9 +28,9 @@ CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_pr
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /tree/projects/github/hp41c/pico41/code/pico41/build/generated/pico_base/pico/version.h \
+ /tree/projects/github/pico41/firmware/build/generated/pico_base/pico/version.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /tree/projects/github/hp41c/pico41/code/pico41/build/generated/pico_base/pico/config_autogen.h \
+ /tree/projects/github/pico41/firmware/build/generated/pico_base/pico/config_autogen.h \
  /tree/downloaded_tools/pico/pico-sdk/src/boards/include/boards/pico.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/error.h \

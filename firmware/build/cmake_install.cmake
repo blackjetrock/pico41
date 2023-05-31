@@ -1,4 +1,4 @@
-# Install script for directory: /tree/projects/github/hp41c/pico41/code/pico41
+# Install script for directory: /tree/projects/github/pico41/firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/cmake_install.cmake")
+  include("/tree/projects/github/pico41/firmware/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/tree/projects/github/hp41c/pico41/code/pico41/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/tree/projects/github/pico41/firmware/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1352,9 +1352,9 @@ Discarded input sections
                 0x0000000000000000        0x1 CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_mutex
                 0x0000000000000000        0x8 CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc1BmOia.o
- .data          0x0000000000000000        0x0 /tmp/cc1BmOia.o
- .bss           0x0000000000000000        0x0 /tmp/cc1BmOia.o
+ .text          0x0000000000000000        0x0 /tmp/ccoGCWoW.o
+ .data          0x0000000000000000        0x0 /tmp/ccoGCWoW.o
+ .bss           0x0000000000000000        0x0 /tmp/ccoGCWoW.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
@@ -1627,7 +1627,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc1BmOia.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccoGCWoW.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3017,7 +3017,7 @@ LOAD CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/ha
 LOAD CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 LOAD CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD /tmp/cc1BmOia.o
+LOAD /tmp/ccoGCWoW.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3137,7 +3137,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000800       0x2c CMakeFiles/pico41.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x000000000000082c       0x22 /tmp/cc1BmOia.o
+                0x000000000000082c       0x22 /tmp/ccoGCWoW.o
  .ARM.attributes
                 0x000000000000084e       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

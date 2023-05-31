@@ -1,0 +1,6 @@
+Errata For Pico41 V1.0
+======================
+
+1. OE_ISA is disconnected on schematic
+2. 3V3 is not connected to anything. Run it from 3V3 from Pico.
+

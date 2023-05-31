@@ -1,5 +1,5 @@
 
-/tree/projects/github/hp41c/pico41/code/pico41/build/pico41.elf:     file format elf32-littlearm
+/tree/projects/github/pico41/firmware/build/pico41.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -50,7 +50,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  22 .debug_loc    0000023c  00000000  00000000  000170dc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/tree/projects/github/hp41c/pico41/code/pico41/build/pico41.elf:     file format elf32-littlearm
+/tree/projects/github/pico41/firmware/build/pico41.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:
@@ -20543,7 +20543,7 @@ Disassembly of section .data:
 2000abb8:	656c6552 00657361 746f6f62 32775f32     Release.boot2_w2
 2000abc8:	38307135 00000030 2e342e31 00000030     5q080...1.4.0...
 2000abd8:	6f636970 00000000 6f636970 00003134     pico....pico41..
-2000abe8:	20727041 32203132 00333230              Apr 21 2023.
+2000abe8:	2079614d 32203133 00333230              May 31 2023.
 
 2000abf4 <__bi_44>:
 2000abf4:	50520006 b63cffbb 2000abd8              ..RP..<.... 

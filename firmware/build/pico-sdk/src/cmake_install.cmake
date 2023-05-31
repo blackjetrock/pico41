@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/src/common/cmake_install.cmake")
-  include("/tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("/tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("/tree/projects/github/pico41/firmware/build/pico-sdk/src/common/cmake_install.cmake")
+  include("/tree/projects/github/pico41/firmware/build/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("/tree/projects/github/pico41/firmware/build/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /tree/projects/github/hp41c/pico41/code/pico41/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /tree/projects/github/pico41/firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb
