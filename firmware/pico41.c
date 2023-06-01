@@ -239,7 +239,8 @@ char *embed_prog[] = {
 "97 RCL 02", "98 -", "99 SIN", "100 ST* Y", "101 +", "102 +", "103 RCL 04", "104 90", 
 "105 *", "106 SIN", "107 3", "108 *", "109 +", "110 5598", "111 +", "112 E3", 
 "113 /", "114 RCL 03", "115 +", "116 INT", "117 LASTX", "118 FRC", "119 X<0?", "120 DSE Y", 
-"122 24", "123 ST* Y", "124 MOD", "125 HMS", "126 X<>Y", "127 XEQGDT", "128 RCL 04", 
+"121 STO X", "122 24", "123 ST* Y", "124 MOD", "125 HMS", "126 X<>Y", "127 XEQGDT", "128 RCL 04", 
+
 // HP41C_EMBEDDED_PROG_END
 };
 
@@ -284,13 +285,35 @@ char *embed_keys[] = {
 "XEQ", "ALPHA", "L", "A", "S", "T", "X", "ALPHA", 
 "XEQ", "ALPHA", "F", "R", "C", "ALPHA", "XEQ", "ALPHA", 
 "X", "SHIFT", "I", "SHIFT", "0", "3", "ALPHA", "XEQ", 
-"ALPHA", "D", "S", "E", "ALPHA", ".", "Y", "2", 
-"4", "STO", "*", ".", "Y", "XEQ", "ALPHA", "M", 
-"O", "D", "ALPHA", "XEQ", "ALPHA", "H", "M", "S", 
-"ALPHA", "X<>Y", "XEQ", "ALPHA", "D", "T", "ALPHA", "RCL", 
-"0", "4", 
+"ALPHA", "D", "S", "E", "ALPHA", ".", "Y", "STO", 
+".", "X", "2", "4", "STO", "*", ".", "Y", 
+"XEQ", "ALPHA", "M", "O", "D", "ALPHA", "XEQ", "ALPHA", 
+"H", "M", "S", "ALPHA", "X<>Y", "XEQ", "ALPHA", "D", 
+"T", "ALPHA", "RCL", "0", "4", 
 // HP41C_EMBEDDED_KEYS_END
 };
+
+// Byte grabber keystrokes
+char *byte_grabber_keys[] =
+  {
+#if 1
+   "SHIFT","XEQ", "ALPHA", "SHIFT", "+", "ALPHA", "LN",
+   "WAIT1",
+   "SHIFT","XEQ", "ALPHA", "D", "E", "L", "ALPHA", "LOG",
+   "WAIT1",
+#endif   
+   "PRGM",
+   "WAIT1",
+   "SHIFT",
+   "WAIT1",
+   "ENTER",
+   "WAIT1",
+   "1",
+   "WAIT2",
+   "R/S",
+   "ALPHA",
+   "<-",
+  };
 
 // Embedded ROM image
 
@@ -303,7 +326,7 @@ int embed_rom[] = {
 0x020b,0x0070,0x020b,0x0091,0x020b,0x00a6,0x020b,0x00bd,0x020b,0x00da,0x020b,0x00f4,0x020c,0x0003,0x020c,0x000e,
 0x020c,0x0023,0x020c,0x0038,0x020c,0x004a,0x020c,0x005e,0x020c,0x006c,0x020c,0x007b,0x020c,0x008b,0x020c,0x009f,
 0x020c,0x00b6,0x020c,0x00fb,0x020d,0x0037,0x020d,0x0062,0x020d,0x007d,0x020d,0x00f3,0x020f,0x0050,0x0000,0x0000,
-0x0084,0x0031,0x0020,0x0008,0x0014,0x0001,0x000d,0x002d,0x03e0,0x008d,0x0230,0x01c0,0x0001,0x00f7,0x0000,0x004d,
+0x0084,0x0031,0x0020,0x0008,0x0014,0x0002,0x000d,0x002d,0x03e0,0x008d,0x0230,0x01c0,0x0001,0x00f7,0x0000,0x004d,
 0x0041,0x0054,0x0052,0x0049,0x0058,0x0112,0x001a,0x0010,0x0011,0x01cf,0x000f,0x01a9,0x00f3,0x0196,0x0073,0x01d0,
 0x0007,0x000f,0x01a8,0x0004,0x01a8,0x0015,0x01a9,0x001d,0x01f7,0x004f,0x0052,0x0044,0x0045,0x0052,0x003d,0x003f,
 0x018e,0x01cf,0x0010,0x0183,0x0151,0x0176,0x0112,0x0142,0x0140,0x0111,0x0014,0x0140,0x01a8,0x0019,0x0191,0x00f3,
@@ -1807,7 +1830,7 @@ struct
    {"7",     4, 1},
    {"8",     4, 2},
    {"9",     4, 3},
-   {"R/S",   7, 4},
+   {"R/S",   7, 3},
    {".",     7, 2},
    {"/",     7, 0},
    {"*",     6, 0},
@@ -1981,6 +2004,28 @@ char upkey[MAX_KWB];
 
 void press_key(char *key)
 {
+  int quick_key = 0;
+  char qk[2] = {' ', '\0'};
+  
+  // Check for commands
+  if( strcmp(key, "QUICK1")==0 )
+    {
+      qk[0] = '1';
+      key = &(qk[0]);
+      quick_key = 1;
+    }
+
+  if( strcmp(key, "WAIT1")==0 )
+    {
+      sleep_ms(2000);
+      return;
+    }
+
+  if( strcmp(key, "R/S")==0 )
+    {
+      sleep_ms(100);
+    }
+  
   gpio_put(P_KB_INH, 0);
   sleep_ms(PRESS_DELAY_1);
 
@@ -2014,8 +2059,15 @@ void press_key(char *key)
 	  gpio_put(P_KB_INH, 1);
 	  sleep_ms(PRESS_DELAY_1);
 	  gpio_put(P_KB_INH, 0);
-	  sleep_ms(PRESS_DELAY_1);
-
+	  if( quick_key )
+	    {
+	      sleep_ms(50);
+	    }
+	  else
+	    {
+	      sleep_ms(PRESS_DELAY_1);
+	    }
+	  
 	  // Certain keys need longer delays
 	  if( isdigit(*upkey) )
 	    {
@@ -2179,6 +2231,8 @@ void press_pi(void)
 // Check the line against the program and then press SST
 //
 
+int mismatches = 0;
+
 void check_prog_line(char *line_text)
 {
   if( strncmp(dtext, line_text, strlen(line_text)) == 0 )
@@ -2189,6 +2243,7 @@ void check_prog_line(char *line_text)
     {
       // Mismatch
       printf("\n**Mismatch Stored line '%s' not equal to '%s'", dtext, line_text);
+      mismatches++;
     }
 
   // Move to next line
@@ -2207,14 +2262,26 @@ void press_embedded(void)
 }
 
 ////////////////////////////////////////////////////////////////////////////////
+void press_byte_grabber(void)
+{
+  for(int i=0; i<(sizeof(byte_grabber_keys)/sizeof(char *)); i++)
+    {
+      press_key(byte_grabber_keys[i]);
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////
 
 void check_prog(void)
 {
+  mismatches = 0;
   for(int i=0; i<(sizeof(embed_prog)/sizeof(char *)); i++)
     {
       check_prog_line(embed_prog[i]);
       process_bus();
     }
+
+  printf("\n%d mismatched lines\n", mismatches);
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -2333,6 +2400,11 @@ SERIAL_COMMAND serial_cmds[] =
     'd',
     "ISA drive count",
     isa_drive,
+   },
+   {
+    'G',
+    "Press byte grabber keystrokes",
+    press_byte_grabber,
    },
    {
     '!',

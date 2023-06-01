@@ -118,7 +118,7 @@
 118  FRC
 119  X<0?
 120  DSE Y
-121  ""                           TEXT0  or another  NOP  like  STO X  or here:   FRC
+121  STO X
 122  24
 123  ST* Y
 124  MOD
