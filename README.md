@@ -1,5 +1,4 @@
 # pico41
-RP Pico on HP41C bus
 
 This is a work in progress
 ==========================
@@ -14,6 +13,10 @@ This is a PCB that can be attached to an HP41C (using wires soldered to the proc
 You can see what is happening on the bus just like a logic analyser. The tracing (and other interaction) is through the USB of the Pico.
 You can emulate modules by putting appropriate words on the bus. Currently I have emulated a MATH module. Bank switched modules aren't supported, nor are RAM modules, but that is just a matter of code that I haven't done yet.
 You can press keys on the keyboard, so can enter programs by pressing the appropriate keys. I have a script that converts program in text form and embeds the keypresses into the Pico program such that they can be played back in PRGM mode. Once entered like this the program can be SST'd automatically and checked against a listing that is also embedded in the Pio program.
+
+RP Pico on HP41C bus, showing an emulated MATH module where one word has been altered:
+
+![IMAG3808](https://github.com/blackjetrock/pico41/assets/31587992/99990ba1-36e3-475d-b32e-8eb049ce69e9)
 
 To Do
 =====
