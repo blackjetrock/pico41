@@ -75,6 +75,7 @@ set ::KEYPRESSES {
     X<0?  - {XEQ ALPHA X SHIFT I SHIFT 0 3 ALPHA}
     E2    - {1 EEX 2}
     E3    - {1 EEX 3}
+    "\"\"" - {XEQ ALPHA N O P ALPHA}
     A     - {}
     B     - {}
     C     - {}
