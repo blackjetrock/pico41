@@ -1,5 +1,3 @@
-# pico41
-
 This project has been superseded by Tulip
 =========================================
 
@@ -8,6 +6,9 @@ It is recommeded that the Tulip project is used instead of this one. It can be f
 https://github.com/mjakuipers/TULIP-DevBoard
 
 It has more features, by far. The only feature that it doesn't have is the key pressing, but it does have many more ways to enter programs...
+
+Pico41
+======
 
 This is a PCB that can be attached to an HP41C (using wires soldered to the processor PCB of the HP41C) that allows:
 
